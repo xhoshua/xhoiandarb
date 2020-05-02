@@ -1,0 +1,98 @@
+body{background-image: url('p1.jpg');;
+}
+img{
+    position: absolute;
+}
+.center{text-align: center;
+    margin: 0px auto;
+}
+.content {
+    text-align: center;
+    margin:0 auto;
+    width:80%;
+}
+.first{
+    background-color: #f8fdb5;
+    height: 668px;
+    width: 100%;
+}
+.top-center{display:table;
+  margin-top: 250px;
+    width:100%;
+    height:100%;
+}
+.web-size{
+    width: 100%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Run!\ Demo.otf);
+  }
+  h1{color: rgb(102, 13, 13);
+    font-size:5rem;
+    font-family: myFirstFont; 
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(Friday13\ Bonus\ NFI.otf);
+  }
+  h2{color:rgb(102, 13, 13);
+    font-size:3rem;
+    font-family: mySecondFont;  
+  }
+  p{color:rgb(102, 13, 13);
+    font-size:2.3rem;
+    font-family: mySecondFont;  
+  }
+.button2 {
+    padding: 16px 32px;
+    text-align: center;
+  font-size: 40px;
+    margin: 4px 2px;
+    width: 40%;
+    height: 80px;
+  transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: url('anime\ \(1\).jpg');
+    color: white;
+    border: 2px solid #681edf;
+  }
+  
+  .button2:hover {
+    background-image: url();
+    background-color:white;  
+    color: #681edf;
+  }
+  .button1 {
+    padding: 16px 32px;
+    text-align: center;
+  font-size: 40px;
+    margin: 4px 2px;
+    width: 40%;
+    height: 80px;
+  transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: url('meme.jpg');
+    color:white;
+    border: 2px solid #034903;
+  }
+  
+  .button1:hover {
+    background-image: url();
+    background-color:white ;
+    color: #034903;
+  }
+  .button3{
+    left: 47%;
+    position:absolute;
+    border: 2px solid black;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      border-color: #ff9800;
+      color: orange;
+    }
+    .button3:hover {
+      background: #ff9800;
+      color: white;
+    } 
